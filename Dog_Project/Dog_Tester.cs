@@ -26,8 +26,8 @@ namespace Dog_Project
 			int dog_age = dog.getAge();
 			string dog_name = dog.getName();
 			int dog_years = dog.calcDogYears();
-			Console.WriteLine("Your dog's name is: " + dog_name + " and is " + dog_age + " years old.");
-			Console.WriteLine("That's " + dog_years + " dog years.");
+			Console.WriteLine(dog.toString());
+			Console.WriteLine("In dog years the dog is " + dog_years + " years old.");
         }
     }
 
